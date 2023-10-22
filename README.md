@@ -1,4 +1,4 @@
-# Blog App - Spring Boot Project
+# Blog App - Distributed Spring Boot Application
 
 Table of Contents
 
@@ -74,23 +74,23 @@ This API provides the following services:
 
 Follow these steps to run the "Blog App" project:
 
-Unzip the source code to a suitable location.
+- Unzip the source code to a suitable location.
 
-Open your command line interface with administrative privileges (Cmd on Windows, Terminal on macOS).
+- Open your command line interface with administrative privileges (Cmd on Windows, Terminal on macOS).
 
-Navigate to the project directory.
+- Navigate to the project directory.
 
-Build the project and run tests by executing the following command:
+- Build the project and run tests by executing the following command:
 
-mvn clean package
+- mvn clean package
 
-This will create a JAR file named blog-app-1.0.jar inside the "target" folder.
+- This will create a JAR file named blog-app-1.0.jar inside the "target" folder.
 
-Create a Docker container and deploy the application within it:
+- Create a Docker container and deploy the application within it:
 
-Open your command line interface with administrative privileges.
+- Open your command line interface with administrative privileges.
 
-Navigate to the project directory.
+- Navigate to the project directory.
 
 Run the following commands to set up and start a MySQL database in a Docker container. This will download the MySQL 5.6 image from Docker Hub and run it for you:
 
